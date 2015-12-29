@@ -41,87 +41,67 @@
 				<p> The amount of CO<sub>4</sub> in the atmosphere grew by 2ppm in 2009<sub>1</sub>. </p>
 				<!-- the <sup> allows us to create superscripts (above text) and <sub> allows us to create subscripts (below text) -->
 				
-			<h2> Line Breaks </h2>
+			<h2> LINE BREAKS </h2>
 				<p> The Earth <br /> gets one hundred tons heavier everyday <br /> due to falling space dust </p>
 				
-			<h2> Horizontal Breaks </h2>
+			<h2> HORIZONTAL BREAKS </h2>
 				<p> Venus is the only planet that rotates clockwise </p>
 				<hr />
 				<p> Jupiter is bigger than all other planets combines </p>		
+				
+			<h1> Semantic Markup </h1>
+			<p> Semantic Markup script, not meant for how the text appears on screen but used to describe the 
+				content of the webpage more accurately </p>
+				
+			<h2> STRONG </h2>	
+				<p> <strong> Beware </strong>: Pickpockets operate in this area </p>
+				<p> This toy has many small pieces and is <strong> not suitable for children under five years old </strong> </p>
+				<!-- indicates that its content is important, would be said with strong emphasis. By default, contents 
+				within the element are bolded -->
+				
+			<h2> EMPHASIS </h2>
+				<p> I <em> think </em> Ivy was the first  </p>
+				<p> I think <em> Ivy </em>  was the first  </p>	
+		        <p> I think Ivy  was the <em> first </em>  </p>	
+		        <!-- indicates emphasis, subtly changing the meaning of the sentence. By default, contents 
+				within the element are italicized -->
+
+			<h2> QUOTATIONS </h2>
+				<blockquote cite= "http://en.wikipedia.org/wiki/Winnie-the-Pooh">
+					<p> Did you ever stop to think, and forget to start again </p>
+				</blockquote>
+					<p> As A.A Milne said, <q> Some people talk to animals. Not many listen though. That's the 
+					problem.</q> </p>
+					
+			<h2> ABBREVIATIONS AND ACRONYMS </h2>
+				<p> <abbr title="Professor"> Prof </abbr> Stephen Hawking is a theoretical physicist and cosmologist </p>
+				<p> <acronym title= "National Aeronautics and Space Administration"> NASA </acronym> do some crazy 
+				space stuff </p>
+				
+			<h2> CITATIONS AND DEFINITIONS </h2>
+				<p> <cite> A Brief History in Time</cite> by Stephen Hawking has sold over ten million copies worldwide. </p>
+				<!-- when you are referencing a piece of work such as a book, or a research paper . Used to indicate where the source
+				is from. Browsers will render the content in italics -->
+				
+				<p> A <dfn> black hole </dfn> is a region of space from which nothing can escape, not even light. </p>
+				<!-- when you are defining an academic concept or some jargon for the first time (defining instance). 
+				Used to indicate where the source is from. Browsers will render the content in italics -->
+				
+			<h2> AUTHOR DETAILS </h2>
+				<address>
+					<p> <a href="mailto:homer@example.org">
+						homer@example.org</a> </p>
+					<p> 742 Evergreen Terrace, Springfield. </p>
+				</address>
+				
+			<h2> CHANGES TO CONTENT </h2>
+				<p> It was the <del> worst  </del> <ins> best</ins> idea she ever had </p>
+				<!-- <del> usually appears crossed out, while <uns> is underlined  -->
+				
+				<p> Laptop Computer: </p>
+				<p> <s> Was $995 </s> </p>
+				<p> Now only $375 </p>
 						
    		 </body>
 
-<!-- Practice -->
-	<hr />
-	<h1> Practice Exercise: Resume Style <h1>
-	<hr />
-<!-- 
-  <head>
-		<title> Nikita Abraham </title>
-  </head>
--->	
-	<body>
-	
-		<h2> Hello, my name is Nikita Abraham </h2>
-			<p> I am currently entering my 3<sup>rd</sup> year in the ITI (Information Technology and Informatics)
-			Program at Rutgers University<sub>1</sub>. I am also working toward a Game Production
-			and Innovation Specialization. </p>
-			
-			<h6> (1) The State University of New Jersey, New Brunswick Campus </h6>
-			
-			<h3> Academic Awards </h3>
-				<p> SAS Excellence Award, Class of 1925 Scholarship, Rutgers 2015 Academic 
-				Excellence Award, Dean's List (all semesters) </p>
-			<h3> Human Computer Interaction </h3>	
-				<p> Online course taught by Associate Professor Scott Klemmer from Stanford University </p>
-			<h3> Edward Tufte Seminar </h3>
-				<p> Presenting Data and Information, 1 Day Workshop (NYC)</p>
-		
-		<h2> Skills </h2>
-			<h3> Software </h3>
-				<p> Adobe Photoshop, Adobe Illustrator, Sketch, Pixelmator, Unity Game Engine, MS Office</p>
-			<h4> Version Control / Collaborative Applications</h4>
-				<p> Github, Gantter, Slack </p>
-			<h4> Wireframing / Mockups </h4>
-				<p> Justinmind Prototyper, Balsamiq, Axure </p>
-				
-			<h3> Hardware </h3>		
-				<p> <i>Windows / Mac Machines </i> </p>
-			<h4>	 Computer Languages </h4>
-				<p> <i>Familiar with Python, Java, C#, HTML </i> </p>
-			<h4> Nontechnical</h4>	
-				<p> <i> Verbal and visual communication skills, ability to work independently, experience
-				working on teams </i> </p>
-			<h4>	 Interests </h4>
-				<p> <i>Cognitive Science, Information Visualization, Pure Mathematics </i> </p>
-							
-		<h2> Selected Coursework </h2>
-			<p> Information Technology and Informatics, Introduction to Communication and Information Processes, <br />
-			Social Informatics, Computer Concepts, Object Oriented Programming, Management of Technologic Organizations, <br />
-			Digital Game Creation, Game Production, Internet and Information Environment, Web Diving and the Quest for Creativity, <br />
-			Applying Cognitive Science to Problems, Retrieving and Evaluating Electronic Information </p>
-			
-		<h2> Experience </h2>
-			<h4> Unplug </h4>
-				<h5> <b> Interface Design, Graphic Design, Logo Design </b> </h5>
-				<p> Designed a creative user interface focusing on the negative effects of cellphone use.
-				Aimed to raise awareness and promote healthy technology use among the community. 
-				Developed an overall concept and designed an appropriate interface. Drafted, edited, 
-				and implemented all illustrations </p>
-				
-			<h4> Worcester Hills Dental Practice </h4>
-				<h5> <b> Logo Design </b> </h5>
-				<p> I designed a pictoral logo for Worcester Hills Dental Practice in Boston, 
-				Massachusetts, that embodies the qualities and elements that the client specified
-				</p>
-				
-			<h4> StudyPRO </h4>
-				<h5> <b> Interface Design, Graphic Design, Logo Design </b> </h5>
-				<p> A final project for "Management of Technological Organizations," StudyPro is a website
-				that consolidates Rutgers students onto one place and creates study groups based on 
-				the conveniences of each student. Created a low and high-fidelity prototype. 
-				</p>
-
-	</body>
-	
 </html>
